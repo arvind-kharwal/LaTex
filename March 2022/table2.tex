@@ -1,0 +1,51 @@
+\documentclass{book}
+
+\begin{document}
+	\title{The Latex Book}
+	\author{Mr. Arvind Kumar}
+	\date{\today}
+	\maketitle
+	\pagenumbering{roman}
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}
+	\chapter{Tables in LaTex}
+	\begin{table}
+		\centering
+		\begin{tabular}{|p{1in} |p{1in} |p{1in}|}
+			\hline
+			Arvind & Amit & Kukku \\
+			\hline
+			Arya & Abhi & Priya \\
+			\hline
+			ABC & CDE & \\
+			\hline
+			This is\newline same line  & CDE & Testing \\
+			\hline
+		\end{tabular}
+	\caption{First Table}
+	\label{tab:firsttable}
+	\end{table}
+		
+	\chapter{Tables in LaTex -  Chapter 2}
+	\begin{table}
+		\centering
+		\begin{tabular}{|p{2cm}|p{2cm} |p{2cm}|} 
+	     	\hline
+			S.No & Column1 & Column2 \\
+			\hline
+			Arvind & Amit & Kukku \\
+			\hline
+			Arya & Abhi & Priya \\
+			\hline
+			ABC & CDE & \\
+			\hline
+			This is\newline same line  & CDE & Testing \\
+			\hline
+		\end{tabular}
+		\caption{Second Table}
+		\label{tab:secondtable}
+	\end{table}
+
+	
+\end{document}
